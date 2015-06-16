@@ -1,4 +1,7 @@
-import RPi.GPIO as GPIO
+# install rpi.gpio if needed
+# apt-get install rpi.gpio
+
+import RPi.GPIO as GPIO 
 import time
 
 

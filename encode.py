@@ -52,12 +52,13 @@ CODE = {' ': ' ',
 
 
 def dot():
-	print "."
+	print ".",
 
 def dash():
-	print "-"
+	print "-",
 
 while True:
+	print 
 	input = raw_input('What would you like to send? ')
 	for letter in input:
 			for symbol in CODE[letter.upper()]:
@@ -68,5 +69,6 @@ while True:
 				else:
 					time.sleep(0.5)
 			time.sleep(0.5)
+			print "  "
 
 
